@@ -8,9 +8,9 @@ main {
 }
 .weather-app {
   background-color: beige;
-  max-width: 50%;
+  max-width: 40%;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   border-radius: 40px;
 }
 .city-input {
@@ -30,8 +30,8 @@ main {
   color: white;
   background: #bbd915;
 }
-.humidity,
-.wind {
+#humidity,
+#wind {
   color: #bbd915;
 }
 .temperature-result {
