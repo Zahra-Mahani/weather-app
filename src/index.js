@@ -52,3 +52,4 @@ function searchResult() {
 }
 let formElement = document.querySelector("#city-form");
 formElement.addEventListener("submit", searchResult);
+updateResult("Tehran");
