@@ -30,6 +30,9 @@ main {
   color: white;
   background: #bbd915;
 }
+.other-conditions {
+  color: rgba(0, 0, 0, 0.7);
+}
 #humidity,
 #wind {
   color: #bbd915;
@@ -39,8 +42,7 @@ main {
   margin-top: 25px;
 }
 .emoji {
-  font-size: 20px;
-  margin-top: 10px;
+  width: 60px;
 }
 .temperature-value {
   font-size: 44px;

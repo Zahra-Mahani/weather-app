@@ -11,6 +11,9 @@ function refreshDegree(response) {
   let wind = document.querySelector("#wind");
   let time = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let emoji = document.querySelector("#emoji");
+  emoji.innerHTML = `<img src="
+                       ${response.data.condition.icon_url}" alt="" class="emoji">`;
   time.innerHTML = formatDate(date);
   temperatureElement.innerHTML = Math.round(temperature);
   let resultCity = document.querySelector("#city-result");
