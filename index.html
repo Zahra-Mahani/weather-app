@@ -15,14 +15,14 @@
 <body>
     <div class="weather-app">
         <header>
-            <form class="city-form">
-                <input type="search" placeholder="Enter a city..." required class="city-input" />
+            <form id="city-form">
+                <input type="search" placeholder="Enter a city..." required class="city-input" id="city" />
                 <input type="submit" value="search" class="search-button">
             </form>
         </header>
         <main>
             <div>
-                <h1>The city</h1>
+                <h1 id="city-result">The city</h1>
                 <p>Humidity: <span class="humidity">hv</span>, Wind: <span class="wind">wv</span></p>
             </div>
             <div class="temperature-result">
@@ -38,6 +38,7 @@
             hosted on <a href="https://weatherhomeworkapp.netlify.app/" target="_blank">Netlify</a>.
         </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 
 </html>
